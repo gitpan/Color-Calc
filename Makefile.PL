@@ -1,19 +1,21 @@
-# $Id: Makefile.PL,v 1.10 2006/12/10 21:29:45 cfaerber Exp $
+# $Id: Makefile.PL 20 2008-09-14 14:10:00Z cfaerber $
 #
+use 5.006;
+use strict;
+
 use ExtUtils::MakeMaker;
 
 WriteMakefile(
     'NAME'		=> 'Color::Calc',
-    'VERSION_FROM'	=> 'Calc.pm',
+    'VERSION_FROM'	=> 'lib/Color/Calc.pm',
     'PREREQ_PM'		=> {
 		'Graphics::ColorNames'	=> 0.32,
 		'Graphics::ColorNames::WWW' => 0.01,
 		'Params::Validate'	=> 0.75,
 	},
-    ($] >= 5.005 ?
-      ('ABSTRACT_FROM' 	=> 'Calc.pm',
-       'AUTHOR'     	=> 'Claus Färber <CFAERBER@cpan.org>',
-    ) : ()),
+    'ABSTRACT_FROM' 	=> 'lib/Color/Calc.pm',
+    'AUTHOR'     	=> 'Claus Faerber <CFAERBER@cpan.org>',
+    'LICENSE'		=> 'perl',
 );
 
 
