@@ -1,6 +1,5 @@
-# $Id: DEPRECATED_non-import_suffix.t 20 2008-09-14 14:10:00Z cfaerber $
-#
-use Test::More tests => (12*4);
+use Test::More tests => (12*4) + 1;
+use Test::NoWarnings;
 use Color::Calc();
 
 is(Color::Calc::get_hex		('red'),		'ff0000');

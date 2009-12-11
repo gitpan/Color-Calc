@@ -1,16 +1,29 @@
 --- #YAML:1.0
-name:                Color-Calc
-version:             1.05
-abstract:            Simple calculations with RGB colors.
-license:             perl
-author:              
+name:               Color-Calc
+version:            1.051
+abstract:           Simple calculations with RGB colors.
+author:
     - Claus Faerber <CFAERBER@cpan.org>
-generated_by:        ExtUtils::MakeMaker version 6.42
-distribution_type:   module
-requires:     
-    Graphics::ColorNames:          0.32
-    Graphics::ColorNames::WWW:     0.01
-    Params::Validate:              0.75
+license:            perl
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+build_requires:
+    Test::More:        0
+    Test::NoWarnings:  0
+requires:
+    Graphics::ColorNames:  0.32
+    Graphics::ColorNames::WWW:  0.01
+    Params::Validate:     0.75
+resources:
+    homepage:    http://search.cpan.org/dist/Color-Calc
+    repository:  http://github.com/cfaerber/Color-Calc
+no_index:
+    directory:
+        - t
+        - inc
+        - eg
+generated_by:       ExtUtils::MakeMaker version 6.48
 meta-spec:
-    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
-    version: 1.3
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4

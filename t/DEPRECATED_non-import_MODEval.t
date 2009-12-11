@@ -1,6 +1,5 @@
-# $Id: DEPRECATED_non-import_MODEval.t 20 2008-09-14 14:10:00Z cfaerber $
-#
-use Test::More tests => 48;
+use Test::More tests => 49;
+use Test::NoWarnings;
 use Color::Calc();
 
 local $Color::Calc::MODE = 'hex';

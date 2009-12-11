@@ -1,6 +1,5 @@
-# $Id: object-orientated.t 20 2008-09-14 14:10:00Z cfaerber $
-#
-use Test::More tests => 48;
+use Test::More tests => 49;
+use Test::NoWarnings;
 use Color::Calc();
 
 my $cc = Color::Calc->new( 'OutputFormat' => 'hex' );

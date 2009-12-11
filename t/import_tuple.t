@@ -1,6 +1,5 @@
-# $Id: import_tuple.t 20 2008-09-14 14:10:00Z cfaerber $
-#
-use Test::More tests => 13;
+use Test::More tests => 14;
+use Test::NoWarnings;
 use Color::Calc( 'OutputFormat' => 'tuple' );
 
 is(join(',',color_get		('red')),		'0255,0,0');

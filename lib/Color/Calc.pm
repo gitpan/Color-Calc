@@ -3,6 +3,7 @@
 package Color::Calc;
 
 use strict;
+use utf8;
 use warnings;
 
 use Carp;
@@ -13,7 +14,7 @@ use POSIX;
 use Graphics::ColorNames qw( hex2tuple tuple2hex );
 use Graphics::ColorNames::HTML;
 
-our $VERSION = '1.05';
+our $VERSION = '1.051';
 $VERSION = eval $VERSION;
 
 our $MODE = ();
@@ -298,6 +299,8 @@ foreach my $format (@__formats) {
 
 __import(__PACKAGE__, 'Prefix' => 'color', 'OutputFormat' => '__MODEvar');
 
+=encoding utf8
+
 =head1 NAME
 
 Color::Calc - Simple calculations with RGB colors.
@@ -479,7 +482,7 @@ the C<OutputFormat> and a C<ColorScheme> incompatible with HTML
 (e.g. C<X>). (This may change in future versions.)
 
 (Note: The module internally only works with color values in the
-integer range 0..255, i.e. 8 bit precision. This may change in
+integer range 0..255, i.e. 8Â bit precision. This may change in
 future versions.)
 
 =head3 Input
@@ -663,23 +666,16 @@ L<Graphics::ColorNames> (required);
 
 L<Graphics::ColorObject> (optional)
 
-=head1 AUTHOR/LICENSE
+=head1 AUTHOR
 
-Copyright © 2004-2008 Claus Färber <CFAERBER@cpan.org>
+Claus FÃ¤rber <CFAERBER@cpan.org>
 
-This module is free software; you can redistribute it and/or
-modify it under the terms of either the GNU General Public License
-as published by the Free Software Foundation; either version 1, or
-(at your option) any later version, or the "Artistic License".
+=head1 LICENSE
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
+Copyright Â© 2004-2009 Claus FÃ¤rber. All rights reserved.
 
-You should have received a copy of the GNU General Public License
-along with this program; if not, write to the Free Software
-Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
-MA 02110-1301, USA.
+This library is free software; you can redistribute it and/or modify it under
+the same terms as Perl itself.
 
 =cut
 

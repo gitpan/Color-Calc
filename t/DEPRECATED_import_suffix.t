@@ -1,6 +1,5 @@
-# $Id: DEPRECATED_import_suffix.t 20 2008-09-14 14:10:00Z cfaerber $
-#
-use Test::More tests => 52;
+use Test::More tests => 53;
+use Test::NoWarnings;
 use Color::Calc;
 
 is(color_get_hex		('red'),		'ff0000');

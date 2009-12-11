@@ -1,6 +1,5 @@
-# $Id: input_import.t 20 2008-09-14 14:10:00Z cfaerber $
-#
-use Test::More tests => 8;
+use Test::More tests => 9;
+use Test::NoWarnings;
 use Color::Calc( 'OutputFormat' => 'hex' );
 
 is(color_mix		('F00','00F'),		'800080');
