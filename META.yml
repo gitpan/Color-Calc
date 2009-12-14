@@ -1,29 +1,46 @@
---- #YAML:1.0
-name:               Color-Calc
-version:            1.051
-abstract:           Simple calculations with RGB colors.
+---
+name: Color-Calc
+version: 1.052
 author:
-    - Claus Faerber <CFAERBER@cpan.org>
-license:            perl
-distribution_type:  module
-configure_requires:
-    ExtUtils::MakeMaker:  0
-build_requires:
-    Test::More:        0
-    Test::NoWarnings:  0
-requires:
-    Graphics::ColorNames:  0.32
-    Graphics::ColorNames::WWW:  0.01
-    Params::Validate:     0.75
+  - 'Claus Färber <CFAERBER@cpan.org>'
+abstract: Simple calculations with RGB colors.
+license: perl
 resources:
-    homepage:    http://search.cpan.org/dist/Color-Calc
-    repository:  http://github.com/cfaerber/Color-Calc
+  license: http://dev.perl.org/licenses/
+build_requires:
+  Test::More: 0
+  Test::NoWarnings: 0
+requires:
+  Graphics::ColorNames: 0.32
+  Graphics::ColorNames::WWW: 0.01
+  Params::Validate: 0.75
+configure_requires:
+  Module::Build: 0.35
+provides:
+  Color::Calc:
+    file: lib/Color/Calc.pm
+    version: 1.052
+  Color::Calc::WWW:
+    file: lib/Color/Calc/WWW.pm
+    version: 1.052
+  Color::Calc::hex:
+    file: lib/Color/Calc/hex.pm
+    version: 1.052
+  Color::Calc::html:
+    file: lib/Color/Calc/html.pm
+    version: 1.052
+  Color::Calc::object:
+    file: lib/Color/Calc/object.pm
+    version: 1.052
+  Color::Calc::pdf:
+    file: lib/Color/Calc/pdf.pm
+    version: 1.052
+  Color::Calc::tuple:
+    file: lib/Color/Calc/tuple.pm
+    version: 1.052
 no_index:
-    directory:
-        - t
-        - inc
-        - eg
-generated_by:       ExtUtils::MakeMaker version 6.48
+  directory: eg
+generated_by: Module::Build version 0.35
 meta-spec:
-    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
-    version:  1.4
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
