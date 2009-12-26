@@ -10,9 +10,10 @@ WriteMakefile
           'PREREQ_PM' => {
                            'Test::More' => 0,
                            'Params::Validate' => '0.75',
+                           'Graphics::ColorNames::HTML' => 0,
                            'Graphics::ColorNames::WWW' => '0.01',
                            'Test::NoWarnings' => 0,
-                           'Graphics::ColorNames' => '0.32'
+                           'Graphics::ColorNames' => '2.1'
                          }
         )
 ;
