@@ -1,8 +1,8 @@
 ---
 name: Color-Calc
-version: 1.059_20091226
+version: 1.059_20091227
 author:
-  - 'Claus FE<auml>rber <CFAERBER@cpan.org>'
+  - 'Claus Färber <CFAERBER@cpan.org>'
 abstract: Simple calculations with RGB colors.
 license: perl
 resources:
@@ -20,10 +20,10 @@ configure_requires:
 provides:
   Color::Calc:
     file: lib/Color/Calc.pm
-    version: 1.059_20091226
+    version: 1.059_20091227
   Color::Calc::WWW:
     file: lib/Color/Calc/WWW.pm
-    version: 1.052
+    version: 1.059_20091227
 no_index:
   directory: eg
 generated_by: Module::Build version 0.35
