@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.55.
+signed via the Module::Signature module, version 0.61.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -15,13 +15,13 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 248ceaf62d4049c2d62de7f6e0d3933cd209c59e Build.PL
-SHA1 e63f4c74bf5ac8136f108bb406c56959fcb36355 Changes
-SHA1 5e8892b211d2e08c1b98d3a033b4d8439158339e LICENSE
+SHA1 8ba3a4c6acc6eb00dfe6026a11307c5ea0fa5830 Changes
+SHA1 9b37c74ac55bf4a1d347a873f9936ca24cab4f3b LICENSE
 SHA1 f51962c7a43c271f18fb8de867b11f6a2ed9bfb8 MANIFEST
-SHA1 04309d43ef362092ebe75c2d346bed8235108d00 META.yml
-SHA1 167c32f192b2e25bcb5e737578f0faf0412716e7 Makefile.PL
+SHA1 fa539c08552ca09172f9dfc444189ef365766154 META.yml
+SHA1 ed55005fa0888011e5032b177eb8a9705f47743e Makefile.PL
 SHA1 5ed9e2aadb613986d5ac3a78aaad9c75ffbed777 README
-SHA1 6993a9eb4277359cae55f3262c79b640cd37a90f lib/Color/Calc.pm
+SHA1 e34196484034c492be57bad90c45bd1b60751493 lib/Color/Calc.pm
 SHA1 604be3c31f371b6100c88640bd8b880f07a655eb lib/Color/Calc/WWW.pm
 SHA1 dd5e2852432a4d8a54d31a74f4f003f88b405473 t/00basic.t
 SHA1 056063d18c3f48338620bbff698f81f91f2ea4d0 t/10pod.t
@@ -45,7 +45,7 @@ SHA1 3edac7a11bd52b080cee180f47ed38235441b38f t/schemes_oo.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (Darwin)
 
-iEYEARECAAYFAks35DgACgkQSKUOY2OWgPCSewCeLSydHILB1pWOme1wYc+MSenu
-D98AnRMAYlZ3laa5q6yOZyWd/HUQS96J
-=YzZp
+iEYEARECAAYFAktzSGAACgkQSKUOY2OWgPCP5wCeJbVQShttUVnIZhc2Rlo5+mcf
+SUEAnjzzI76Ewpp/E5Ft0MnuZZj9lhZ3
+=vlSG
 -----END PGP SIGNATURE-----
