@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.61.
+signed via the Module::Signature module, version 0.64.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,15 +14,18 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 248ceaf62d4049c2d62de7f6e0d3933cd209c59e Build.PL
-SHA1 8ba3a4c6acc6eb00dfe6026a11307c5ea0fa5830 Changes
-SHA1 9b37c74ac55bf4a1d347a873f9936ca24cab4f3b LICENSE
-SHA1 f51962c7a43c271f18fb8de867b11f6a2ed9bfb8 MANIFEST
-SHA1 fa539c08552ca09172f9dfc444189ef365766154 META.yml
-SHA1 ed55005fa0888011e5032b177eb8a9705f47743e Makefile.PL
+SHA1 d75fb0028306e5310c98ca7c7dca2e06d116e1c9 Build.PL
+SHA1 2b90fb656fe5e925ebc169c02784ae9c203d8a6c Changes
+SHA1 9190200052fd314c4731eee1fb62da49259738df LICENSE
+SHA1 5aaec14ca4814f5a6fe8cf9d7fada1942cce8ff9 MANIFEST
+SHA1 3d70456e64d970a5fe3acc6ac2033133de70d342 MANIFEST.SKIP
+SHA1 e20167ff86d547ded351f83760e9feb3cc36e6aa META.yml
+SHA1 f19e5586946f919c9f93e6efec5c925c68c25652 Makefile.PL
 SHA1 5ed9e2aadb613986d5ac3a78aaad9c75ffbed777 README
-SHA1 e34196484034c492be57bad90c45bd1b60751493 lib/Color/Calc.pm
-SHA1 604be3c31f371b6100c88640bd8b880f07a655eb lib/Color/Calc/WWW.pm
+SHA1 9d1b1a2592814a5faf66fe2b54c7617f11ceb958 eg/style-sheet.asp
+SHA1 42e5f6066aeb6a6628d09c04159a9bca2af8a15d eg/style-sheet.pl
+SHA1 a66a8bcf68a6e4398f2f52e2328e1eaf496e7800 lib/Color/Calc.pm
+SHA1 ece3298db5ff7f1ebc818526a9d82088f48939ba lib/Color/Calc/WWW.pm
 SHA1 dd5e2852432a4d8a54d31a74f4f003f88b405473 t/00basic.t
 SHA1 056063d18c3f48338620bbff698f81f91f2ea4d0 t/10pod.t
 SHA1 e2b1f468d6ea1199f0d68655d25532095435aac8 t/11pod_cover.t
@@ -30,22 +33,25 @@ SHA1 54e4cc9aa1b95c1207a0b7fe505a7fc3096ef5b4 t/DEPRECATED_import_MODEval.t
 SHA1 06bf92fe8ca89d99d76b1c19e698ffff50e1a3f9 t/DEPRECATED_import_suffix.t
 SHA1 35bac9ad47423d312eb8ad4afd549d43af2e0487 t/DEPRECATED_non-import_MODEval.t
 SHA1 a3986b8e72a3085f8eae6c7c68ff114fa59f0ad5 t/DEPRECATED_non-import_suffix.t
+SHA1 4e8ff91a5d3a40f4f64a79598dd97fc44c431f33 t/color_opposite.t
+SHA1 69a713d2b91ce77d3b4114db6e7da74ecc6b4ad8 t/color_round.t
+SHA1 c0c72124a020a1d3b17ae3877be8e59deef918ca t/color_safe.t
 SHA1 193eb24082f96dbdf2583e7befd20431d857484d t/import_MODEval.t
 SHA1 a4882816406cf9f8f7205f8420894651fa13b45c t/import_WWW.t
 SHA1 a0a5b31e8c3726bc4a111a84dd77869e55413678 t/import_hex.t
 SHA1 898e52e203b9c19e486cffc59b2494870370b445 t/import_html.t
-SHA1 d4999f8e679e56289e56860a66944b37d60f9885 t/import_object.t
+SHA1 e3f8994b5043707a36b84a4ace3f5bf1cd709c44 t/import_object.t
 SHA1 7f9add37de26d3482f7055a9b7acca1bdfbba085 t/import_tuple.t
 SHA1 327c1093fd5169461ee4896f3abec3dc03ce27ec t/input_import.t
 SHA1 c9bc6ff10d2f99e366a1a466561c8765d07d286d t/input_oo.t
-SHA1 f556013d4147dd3efd16086da596c195ab1035e5 t/object-orientated.t
+SHA1 aecc3997d1697c21382f3703bea8605a8fe2aead t/object-orientated.t
 SHA1 f2f7d33d66bc54c58e7bae2bcaa394186c8ed949 t/schemes_import_HTML.t
 SHA1 0ab6466fd71de056a14dd8c039816c0bf9d00afc t/schemes_import_X.t
-SHA1 3edac7a11bd52b080cee180f47ed38235441b38f t/schemes_oo.t
+SHA1 db1f43e67cd656e7b02a253570e922b3354a4479 t/schemes_oo.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (Darwin)
 
-iEYEARECAAYFAktzSGAACgkQSKUOY2OWgPCP5wCeJbVQShttUVnIZhc2Rlo5+mcf
-SUEAnjzzI76Ewpp/E5Ft0MnuZZj9lhZ3
-=vlSG
+iEYEARECAAYFAky/bSQACgkQSKUOY2OWgPCUIwCdH6fjyVxWOjgYi9MiH67Hogb7
+/5oAn39eYl0/7mJP4Mmudt7BHhMJEAzE
+=Wghp
 -----END PGP SIGNATURE-----
