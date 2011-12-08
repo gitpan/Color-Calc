@@ -32,4 +32,5 @@ t/object-orientated.t
 t/schemes_import_HTML.t
 t/schemes_import_X.t
 t/schemes_oo.t
+META.json
 SIGNATURE    Added here by Module::Build

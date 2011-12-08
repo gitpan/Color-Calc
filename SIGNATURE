@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.64.
+signed via the Module::Signature module, version 0.66.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,17 +14,18 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 d75fb0028306e5310c98ca7c7dca2e06d116e1c9 Build.PL
-SHA1 d1cbd95307bcf90ab35932bf66e7e279788c0d13 Changes
-SHA1 adb4d07c7be316004d5ddf15d452f713aa1659b8 LICENSE
-SHA1 5aaec14ca4814f5a6fe8cf9d7fada1942cce8ff9 MANIFEST
+SHA1 01ee761cd1d9e4b60c226a5e7a311da95149994a Build.PL
+SHA1 4264a0350c5c9d013bba97843a452c0841711290 Changes
+SHA1 9e37a578e9db0af7dbba1875a1dc88e62a045b2a LICENSE
+SHA1 723a226a473c615c649838fbf2c01f50856a96f5 MANIFEST
 SHA1 3d70456e64d970a5fe3acc6ac2033133de70d342 MANIFEST.SKIP
-SHA1 033b9f7ee5cff38548be2f47e1851ecbaeaa8da2 META.yml
-SHA1 ed55005fa0888011e5032b177eb8a9705f47743e Makefile.PL
+SHA1 d5b3723ec8d4c378bad6820ab33cfdd22486d0d2 META.json
+SHA1 4dbab8044078b8c7f6848b2c72e5c0bedd19bd48 META.yml
+SHA1 c35a6c1316bb52e3cb513338e16d19628d0818f2 Makefile.PL
 SHA1 5ed9e2aadb613986d5ac3a78aaad9c75ffbed777 README
 SHA1 9d1b1a2592814a5faf66fe2b54c7617f11ceb958 eg/style-sheet.asp
 SHA1 42e5f6066aeb6a6628d09c04159a9bca2af8a15d eg/style-sheet.pl
-SHA1 b21f2aacda89a32365dffe8f4c0d2b921273297a lib/Color/Calc.pm
+SHA1 3acf03bf86a031a52d755bcbc5cbf290b576f28c lib/Color/Calc.pm
 SHA1 ece3298db5ff7f1ebc818526a9d82088f48939ba lib/Color/Calc/WWW.pm
 SHA1 dd5e2852432a4d8a54d31a74f4f003f88b405473 t/00basic.t
 SHA1 056063d18c3f48338620bbff698f81f91f2ea4d0 t/10pod.t
@@ -51,7 +52,7 @@ SHA1 db1f43e67cd656e7b02a253570e922b3354a4479 t/schemes_oo.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.11 (Darwin)
 
-iEYEARECAAYFAk10KYgACgkQSKUOY2OWgPCj9gCfSrT9iEKrJvMlxViwNFfdEfyN
-N4QAnjFk7PntF52BesKIQMSOze3jOyzx
-=gVYq
+iEYEARECAAYFAk7hM9sACgkQSKUOY2OWgPBn9QCgrG+mchnUF0l4ozB96DaE+E3u
+iCEAoINCpOf7WywOUzrSfGaBT9IJdEOf
+=0psP
 -----END PGP SIGNATURE-----
