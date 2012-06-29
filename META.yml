@@ -20,10 +20,10 @@ no_index:
 provides:
   Color::Calc:
     file: lib/Color/Calc.pm
-    version: 1.072
+    version: 1.073
   Color::Calc::WWW:
     file: lib/Color/Calc/WWW.pm
-    version: 1.070
+    version: 1.073
 requires:
   Graphics::ColorNames: 2.1
   Graphics::ColorNames::HTML: 0
@@ -31,4 +31,4 @@ requires:
   Params::Validate: 0.75
 resources:
   license: http://dev.perl.org/licenses/
-version: 1.072
+version: 1.073

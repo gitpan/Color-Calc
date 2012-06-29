@@ -42,11 +42,11 @@
    "provides" : {
       "Color::Calc" : {
          "file" : "lib/Color/Calc.pm",
-         "version" : "1.072"
+         "version" : "1.073"
       },
       "Color::Calc::WWW" : {
          "file" : "lib/Color/Calc/WWW.pm",
-         "version" : "1.070"
+         "version" : "1.073"
       }
    },
    "release_status" : "stable",
@@ -55,5 +55,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "1.072"
+   "version" : "1.073"
 }
