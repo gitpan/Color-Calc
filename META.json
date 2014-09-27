@@ -4,7 +4,7 @@
       "Claus Faerber <CFAERBER@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.112621",
+   "generated_by" : "Module::Build version 0.4208",
    "license" : [
       "perl_5"
    ],
@@ -21,32 +21,22 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Test::More" : 0,
-            "Test::NoWarnings" : 0
+            "Test::More" : "0",
+            "Test::NoWarnings" : "0"
          }
       },
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.38"
+            "Module::Build" : "0.42"
          }
       },
       "runtime" : {
          "requires" : {
             "Graphics::ColorNames" : "2.1",
-            "Graphics::ColorNames::HTML" : 0,
+            "Graphics::ColorNames::HTML" : "0",
             "Graphics::ColorNames::WWW" : "0.01",
             "Params::Validate" : "0.75"
          }
-      }
-   },
-   "provides" : {
-      "Color::Calc" : {
-         "file" : "lib/Color/Calc.pm",
-         "version" : "1.073"
-      },
-      "Color::Calc::WWW" : {
-         "file" : "lib/Color/Calc/WWW.pm",
-         "version" : "1.073"
       }
    },
    "release_status" : "stable",
@@ -55,5 +45,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "1.073"
+   "version" : "1.074"
 }
